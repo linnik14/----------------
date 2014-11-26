@@ -145,7 +145,6 @@ TABLE {
 		// Prepare request object
         req.caching = true;
         req.loader = 'script';
-		req.open('', 'http://www.select.by/load_calc.php', true);
 		//req.open('', 'http://localhost/joomla/load_calc.php', true);
         var data = { 
             s: summ,
